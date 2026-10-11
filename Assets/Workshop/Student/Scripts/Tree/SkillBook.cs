@@ -50,6 +50,7 @@ using UnityEngine.InputSystem;
         fireWave.nextSkills.Add(fireExplosion);
 
         this.attackSkillTree = new SkillTree(attack);
+        attack.isAvailable = true;
     }
 
     public void Update()
